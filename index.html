@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>LA PRIMERA</h1>
+        <h2> INTRODUCCIÓN</h2>
+            <p> ... </p>
+        <h2> Primera Parte: Agentes</h2>
+            <h3> Las flores </h3>
+                <p> ... </p>
+            <h3> Las personas </h3>
+                <p> ... </p>
+        <h2> Primera Parte: Agentes</h2>
+            <h3> El amor </h3>
+                <p> ... </p>
+            <h3> La felicidad </h3>
+                <p> ... </p>
+    <hgroup>
+        <h1>El noticiero número uno</h1>
+        <h2>El <mark>mejor diario</mark> de noticias</h2>
+    </hgroup>
+
+    <!--TIPOS DE ENTRADA-->
+
+    <!--CHECKBOX-->
+    <p>
+        EJEMPLO DE CHECKBOX
+        <br>
+        Seleccione <strong>una o varias</strong> frutas:
+        <br>
+        <label><!--Cuando se hace clic en el texto, también activa o selecciona el elemento de formulario correspondiente-->
+            <input type="checkbox" name="frutas" value="manzana"> Manzana
+        </label>
+        <label>
+            <input type="checkbox" name="frutas" value="naranja"> Naranja
+        </label>
+        <label>
+            <input type="checkbox" name="frutas" value="banana"> Banana
+        </label> 
+    </p>
+
+    <!--RADIO-->
+    <p>
+        EJEMPLO DE RADIO
+        <br>
+        Seleccione <i><b>una</b></i> opción:
+        <br>
+        <label>
+            <input type="radio" name="genero" value="H"> Hombre
+        </label>
+        <label>
+            <input type="radio" name="genero" value="M"> Mujer
+        </label>
+    </p>
+
+    <!--PASSWORD-->
+    <P>
+        EJEMPLO DE PASSWORD
+        <br>
+        <label>
+            Contraseña:
+            <input type="password" placeholder="Ingresar contraseña">
+        </label>
+        
+    </P>
+    <br>
+    <form>
+        <!--La asociación 'for'(Este atributo se utiliza en la etiqueta <label>) con un 'id'( identificación única) 
+            indica al navegador que cuando se hace clic en la etiqueta, debe activar el elemento de formulario 
+            cuyo 'id' coincide con el valor de 'for'-->
+        <label for="username">Nombre de usuario:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <!--Es común que 'for' y 'id' coincidan para asociar etiquetas con elementos de formulario, 
+            mientras que el 'name' puede ser diferente-->    
+
+        
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <!-- Campo de entrada oculto -->
+        <input type="hidden" name="accion" value="login">
+
+        <input type="submit" value="Iniciar sesión"> <!--SUBMIT-->
+        <input type="reset" value="Borrar datos"> <!--RESET-->
+    </form>
+      
+</head>
+<body>
+    <!--EJEMPLO DE LISTAS DE DEFINICIONES-->
+    <!--dl: "definition list" (lista de definición) Lista de Conceptos-->
+    <!--dt: "definition term" (término de definición) Concepto-->
+    <!--dd: "definition description" (descripción de definición) Definición del Concepto-->
+    <h1>Lista de definiciones.</h1> 
+    <dl> 
+        <dt>Concepto 1</dt> 
+        <dd>Definición 1</dd> 
+        <dt>Concepto 2</dt> 
+        <dd>Definición 2</dd>
+    </dl>
+
+    <!--EJEMPLO DE TABLAS-->
+    <!--tr: "table row" (fila de tabla)-->
+    <!--th: "table header" (encabezado de tabla)-->
+    <!--td: "table data" (datos de tabla) Información de cada celda-->
+    <h1>Navegadores más utilizados en Europa</h1> 
+    <h3>Mayo de 2012</h3>
+    <table border=”1”> 
+        <tr> <th>Navegador</th> <th>% de uso</th> </tr> 
+        <tr> <td>Chrome</td> <td>31%</td> </tr> 
+        <tr> <td>Firefox</td> <td>29%</td> </tr> 
+        <tr> <td>Internet Explorer</td> <td>27%</td> </tr> 
+    </table>
+</body>
+</html>

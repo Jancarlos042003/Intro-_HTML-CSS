@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIOS</title>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <h1>COMPLETAR DATOS</h1>
+        <form class="formulario"> 
+            Nombre de usuario: <input class="nombre" type="text" name="name" placeholder="Ingresar nombre" required> 
+            Contraseña: <input class="contraseña" type="password" name="pwd" placeholder="Ingresar contraseña" required>
+            <fieldset> 
+                <legend>Género</legend> 
+                    <input class="genero_input" type="radio" name="genero" value="hombre"> Hombre<br> 
+                    <input class="genero_input" type="radio" name="genero" value="mujer"> Mujer 
+            </fieldset> 
+            <fieldset> 
+                <legend>Intereses</legend> 
+                    <input type="checkbox" name="interes"> Aplicaciones web<br> 
+                    <input type="checkbox" name="interes"> Programación<br> 
+                    <input type="checkbox" name="interes"> Linux<br> 
+                    <input type="checkbox" name="interes"> Mac<br> 
+                    <input type="checkbox" name="interes"> Android 
+            </fieldset> 
+            <input class="enviar" type="submit"> 
+        </form>
+    </body>
+</html>

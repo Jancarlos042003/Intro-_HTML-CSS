@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando el html</title>
+    <link rel="stylesheet" href="style2.css">
+</head> 
+<body>
+    <h1>COMPLETAR DATOS</h1>
+    <form>
+        <label for="nombre">NOMBRE DE USUARIO:</label>
+        <input class="usuario" type="text" id="nombre" name="nombre" placeholder="Ingresar nombre" required>
+        <label for="dni">DNI DE USUARIO:</label> 
+        <input class="usuario" type="text" id="dni" name="nombre" placeholder="Ingresar DNI" required>
+        <label for="contraseña">CONTRASEÑA:</label>
+        <input class="usuario" type="password" id="contraseña" name="contraseña" placeholder="Ingresar contraseña" required> 
+        <fieldset>
+            <legend>GÉNERO:</legend>
+            <div class="input_genero">
+                <input type="radio" name="genero"> Masculino
+            </div>
+            <div class="input_genero">
+                <input type="radio" name="genero"> Femenino
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>INTERESES:</legend>
+            <div class="input_intereses">
+                <input type="checkbox" name="intereses"> Aplicaciones Web
+            </div>
+            <div class="input_intereses">
+                <input type="checkbox" name="intereses"> Programación
+            </div>
+            <div class="input_intereses">
+                <input type="checkbox" name="intereses"> Linux
+            </div>
+            <div class="input_intereses">
+                <input type="checkbox" name="intereses"> Mac
+            </div>
+            <div class="input_intereses">
+                <input type="checkbox" name="intereses"> Android
+            </div>
+            
+        </fieldset>
+        <input class="enviar" type="submit" name="enviar">
+    </form>
+</body>
+</html>

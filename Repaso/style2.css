@@ -1,0 +1,56 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: blueviolet;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    background-color: red;
+    padding: 30px;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+legend {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+fieldset {
+    margin: 12px;
+}
+
+.input_intereses {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_genero {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enviar {
+    margin-left: 150px;
+    text-decoration:underline;
+    padding: 7px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.usuario {
+    margin: 10px;
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
